@@ -11,6 +11,10 @@
   --font-sans: var(--font-grandiflora);
 }
 
+* {
+  font-family: var(--font-grandiflora), serif !important;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
