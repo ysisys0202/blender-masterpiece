@@ -23,7 +23,7 @@ export default function Home() {
     <div className="min-h-screen bg-zinc-50 font-sans dark:bg-black">
       <main className="container mx-auto py-16 px-4">
         <h1 className="text-4xl font-bold text-black dark:text-zinc-50 text-center mb-12">
-          My Blender Masterpiece
+          블렌더 컬렉션
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-6">
           {models.map((model, index) => (

@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
-import { Cherry_Bomb_One } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const cherryBomb = Cherry_Bomb_One({
-  variable: "--font-cherry-bomb",
+const geistSans = Geist({
+  variable: "--font-geist-sans",
   subsets: ["latin"],
-  weight: "400",
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "My 3D Playground",
+  title: "블렌더 컬렉션",
   description: "A playground for 3D experiments and creations",
 };
 
@@ -19,9 +23,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ko">
       <body
-        className={`${cherryBomb.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
