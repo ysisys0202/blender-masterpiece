@@ -13,5 +13,15 @@ export const models = [
     image: "/images/clip.png",
     title: "세번째 작품 - 클립",
     model: "/models/clip.glb"
+  },
+  {
+    image: "/images/tape.png",
+    title: "네번째 작품 - 테이프",
+    model: "/models/tape.glb"
+  },
+  {
+    image: "/images/pencil.png",
+    title: "다섯번째 작품 - 연필",
+    model: "/models/pencil.glb"
   }
 ];
