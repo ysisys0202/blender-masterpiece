@@ -23,5 +23,10 @@ export const models = [
     image: "/images/pencil.png",
     title: "다섯번째 작품 - 연필",
     model: "/models/pencil.glb"
+  },
+  {
+    image: "/images/calculator.png",
+    title: "여섯번째 작품 - 계산기",
+    model: "/models/calculator.glb"
   }
 ];
