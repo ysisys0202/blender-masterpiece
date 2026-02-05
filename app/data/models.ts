@@ -28,5 +28,10 @@ export const models = [
     image: "/images/calculator.png",
     title: "여섯번째 작품 - 계산기",
     model: "/models/calculator.glb"
+  },
+  {
+    image: "/images/eraser.png",
+    title: "일곱번째 작품 - 그라디언트 지우개",
+    model: "/models/eraser.glb"
   }
 ];
