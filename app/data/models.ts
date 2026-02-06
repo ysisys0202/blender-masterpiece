@@ -33,5 +33,10 @@ export const models = [
     image: "/images/eraser.png",
     title: "일곱번째 작품 - 그라디언트 지우개",
     model: "/models/eraser.glb"
+  },
+  {
+    image: "/images/ballpen.png",
+    title: "여덟번째 작품 - 볼펜",
+    model: "/models/ballpen.glb"
   }
 ];
